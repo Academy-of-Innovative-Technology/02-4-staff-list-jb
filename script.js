@@ -21,6 +21,15 @@ let
 
 ////////// MAKE YOUR UPDATES WITHIN THIS SECTION //// 
 
+admin.pop();
+admin.shift();
+admin.splice(Admin.indexOf("Stahl"), 1);
+Admin.push("Principal Drysdale");   
+Admin.push("Ms. Simpkins");         
+
+Admin.sort();
+
+console.log(Admin);
 
 
 
